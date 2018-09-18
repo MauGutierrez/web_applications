@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> The Jammer </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/Sign_in.css">
+</head>
+<body>
+	<main>
+		<div class="login-page">
+			<div class="form">
+				<header> The Jammer </header>
+				<img src="img/jammer_logo.png"/>
+				<h4>Connecting and sharing with people since 2017</h4>
+				<form class="login-form" name="myForm-login">
+					<input id="username" type="text" name="user" placeholder="username"/>
+					<input id="password" type="password" name="password" placeholder="password"/>
+					<input type="checkbox" name="remember"/> <label>Remember Me</label>
+					<button class="button-login"> Login </button>
+					<p class="message"><a href="#">Create an account</a></p> 
+				</form>
+				<form class="register-form" name="myForm-Register" id="myForm-Register">
+					<input id="First-Name" type="text" name="First-Name" placeholder="First Name"/>
+					<input id="Last-Name" type="text" name="Last-Name" placeholder="Last Name"/>
+					<input id="email" type="text" name="email" placeholder="email"/>
+					<input id="Password" type="password" name="password" placeholder="password"/>
+					<input id="Password-Confirmation" type="password" name="Password-Confirmation" placeholder="Confirm Password"/>
+					<select id="Gender">
+						<option value=""> Select your gender </option>
+						<option value="Male"> Male </option>
+						<option value="Female"> Female </option>
+					</select>
+					<select id="Country">
+						<option value=""> Select your native country </option>
+						<option value="AU"> Australia		</option>
+						<option value="BR"> Brazil			</option>
+						<option value="CA"> Canada			</option>
+						<option value="FR"> France			</option>
+						<option value="DE"> Germany			</option>
+						<option value="IN"> India			</option>
+						<option value="IT"> Italy			</option>
+						<option value="JP"> Japan			</option>
+						<option value="MX"> Mexico 			</option>
+						<option value="NG"> Nigeria			</option>
+						<option value="PT"> Portugal		</option>
+						<option value="ES"> Spain			</option>
+						<option value="SE"> Sweden			</option>
+						<option value="US"> United States	</option>
+						<option value="TR"> Turkey			</option>
+						<option value="UK"> United Kingdom 	</option>
+						<option value="UY"> Uruguay			</option>
+					</select>
+					<button class="button-register"> Register </button>
+					<button class="button-clear"> Clear </button>
+					<p class="message">Already registered? <a href="#">Sign In</a></p>			
+				</form>
+			</div>
+		</div>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sign_in.js"></script>
+</body>
+</html>
